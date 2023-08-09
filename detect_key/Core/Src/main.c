@@ -56,23 +56,7 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-/*
-int buttonHandler(int preButtonState, int curButtonState){
-	curButtonState = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
-	if(curButtonState==BUTTON_PRESSED){
-	  if(curButtonState==preButtonState){
-		  return 0;
-	  }
-	  else{
-		  curButtonState = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
-		  if(curButtonState==BUTTON_RELEASED){
-			  return 1;
-		  }
-	  }
-	}
-	else return 0;
-}
-*/
+
 /* USER CODE END 0 */
 
 /**
